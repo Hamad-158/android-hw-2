@@ -8,9 +8,9 @@ public class HelloWorld{
             letterGrades = new String [10];
            for ( int d = 0 ; d<studentPercentage.length ; d++){
             letterGrades[d] = hmd(studentPercentage[d]);
-            System.out.println("     .         ");
+              System.out.println("     .         ");
               System.out.println(":تقيم الطالب");
-              System.out.print("       _");
+             
               System.out.print(Names[d]);
               System.out.print(':');
               System.out.print("| "+letterGrades[d]+" |");
